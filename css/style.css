@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: 'Roboto', sans-serif; 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,17 +51,29 @@ table {
 body {
 	background-color: LightGray;
 }
-
-div {
-	border: 1px solid Chocolate;
+/* End of Reset */
+/* Start of Custom Styles */
+.content {
+	box-sizing: border-box;
+    padding: 0 15px;
+    border: 1px solid Chocolate;
 }
-
 .top-navigation {
 	background-color: #fff;
 }
-
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+}
+.top-navigation .logo {
+    margin-top: 14px;
+}
+.top-navigation .links li {
+    float: right;
+    display: inline-block;
+    font-size: 16px; 
+    color: #838994; 
+    margin: 25px;
+    margin-left: 25px;
 }
