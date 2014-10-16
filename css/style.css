@@ -186,3 +186,44 @@ button {
     font-weight: 300;
     font-size; 1.313rem;
 }
+.social {
+    padding-bottom: 9.375rem;
+    overflow: auto;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social ul {
+    list-style-type: none;
+    float: left;
+}
+.social li{
+    border-radius: 50%;
+    height: 20px;
+    width: 40px;
+    margin: 1.1% 5px;
+    display: inline-block;
+    border: 1px solid #eaebec;
+    padding: 1% 0;
+    text-align: center;
+}
+.social .icons li:hover{
+    cursor: pointer;
+}
+.social .twitter{
+    color: #55acee;
+}
+.social .facebook{
+    color: #4c66a4;
+}
+.social .instagram{
+    color: #3f729b;
+}
+.copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
